@@ -180,7 +180,7 @@
                                                 <span>WhatsApp</span>
                                                 <span class="main-text"><a
                                                         href="https://api.whatsapp.com/send?phone=555195585116&text=Ol%C3%A1!%20%3A-)"
-                                                        target="_blank">(51) 9558-5116</a></span>
+                                                        target="_blank">(51) 995-585-116</a></span>
                                             </div>
                                         </div>
                                     </div>
@@ -549,7 +549,7 @@
                                 </p>
                                 <div class="space-20"></div>
                                 <div class="ot-button">
-                                    <a href="#estudioimersao" class="octf-btn octf-btn-primary">Saiba
+                                    <a href="{{url('serviços'.'#estudioimersao')}}" class="octf-btn octf-btn-primary">Saiba
                                         Mais</a>
                                 </div>
                             </div>
@@ -579,7 +579,7 @@
                         </div>
                         <br>
                         <div class="ot-button">
-                            <a href="" class="octf-btn octf-btn-primary">Saiba Mais</a>
+                            <a href="{{route('servicos')}}" class="octf-btn octf-btn-primary">Saiba Mais</a>
                         </div>
                     </div>
                     <div class="col-lg-6">

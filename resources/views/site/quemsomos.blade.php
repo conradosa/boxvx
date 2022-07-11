@@ -63,7 +63,7 @@
                                                 <span>WhatsApp</span>
                                                 <span class="main-text"><a
                                                         href="https://api.whatsapp.com/send?phone=555195585116&text=Ol%C3%A1!%20%3A-)"
-                                                        target="_blank">(51) 9558-5116</a></span>
+                                                        target="_blank">(51) 995-585-116</a></span>
                                             </div>
                                         </div>
                                     </div>

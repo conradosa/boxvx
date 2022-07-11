@@ -52,7 +52,7 @@
                         <div class="box-icon"><i class="flaticon-phone-1"></i></div>
                         <p><a style="color: white;"
                               href="https://api.whatsapp.com/send?phone=555195585116&text=Ol%C3%A1!%20%3A-)"
-                              target="_blank">(51) 9558-5116</a></p>
+                              target="_blank">(51) 995-585-116</a></p>
                         <h6>WhatsApp</h6>
                     </div>
                 </div>
