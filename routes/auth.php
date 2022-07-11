@@ -11,10 +11,7 @@ use App\Http\Controllers\Auth\VerifyEmailController;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware('guest')->group(function () {
-    Route::get('cadastro', [RegisteredUserController::class, 'create'])->name('register');
-
-    Route::post('cadastro', [RegisteredUserController::class, 'store']);
-
+    
     Route::get('login', [AuthenticatedSessionController::class, 'create'])->name('login');
 
     Route::post('login', [AuthenticatedSessionController::class, 'store']);
@@ -26,9 +23,14 @@ Route::middleware('guest')->group(function () {
     Route::get('reset-senha/{token}', [NewPasswordController::class, 'create'])->name('password.reset');
 
     Route::post('reset-senha', [NewPasswordController::class, 'store'])->name('password.update');
+    
 });
 
 Route::middleware('auth')->group(function () {
+    
+    Route::get('cadastro', [RegisteredUserController::class, 'create'])->name('register');
+
+    Route::post('cadastro', [RegisteredUserController::class, 'store']);
 
     Route::get('verificar-email', [EmailVerificationPromptController::class, '__invoke'])
                 ->name('verification.notice');

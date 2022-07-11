@@ -549,7 +549,7 @@
                                 </p>
                                 <div class="space-20"></div>
                                 <div class="ot-button">
-                                    <a href="#estudioimersao" class="octf-btn octf-btn-primary">Saiba
+                                    <a href="{{url('/serviços'.'#estudioimersao')}}" class="octf-btn octf-btn-primary">Saiba
                                         Mais</a>
                                 </div>
                             </div>
@@ -579,7 +579,7 @@
                         </div>
                         <br>
                         <div class="ot-button">
-                            <a href="" class="octf-btn octf-btn-primary">Saiba Mais</a>
+                            <a href="{{route('servicos')}}" class="octf-btn octf-btn-primary">Saiba Mais</a>
                         </div>
                     </div>
                     <div class="col-lg-6">
